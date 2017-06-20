@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:id="@+id/lend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="TRANSACTIONS"
+            android:textColor="@color/white_greyish"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/view_senders"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/loginbutton_selector"
+            android:padding="16dp"
+            android:text="Borrowed by"
+            android:textColor="@color/background_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="viewSendersOnAction" />
+        <Button
+            android:id="@+id/view_receivers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/loginbutton_selector"
+            android:padding="16dp"
+            android:text="Lended to"
+            android:textColor="@color/background_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="viewReceiversOnAction" />
+    </LinearLayout>
+</RelativeLayout>
+
