@@ -1,13 +1,4 @@
-/*
- * Copyright (c)  Waoss
- * This software is licensed under the GNU General Public License v3.0
- * It is distributed in the hope that it shall be useful to everybody who receives it.
- * This license allows the community to make any sort of modification or changes to it.
- * However, the license does not guarantee any sort of liability or warranty.
- * If this software is distributed in source form, it MUST retain this copyright header.
- * Thank you.
- * If you feel like contributing just give us a pull request. We'd be happy to accept it.
- */
+
 
 package com.waoss.moneypool.client.login;
 
