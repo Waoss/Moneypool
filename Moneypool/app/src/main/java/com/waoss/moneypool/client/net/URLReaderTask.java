@@ -31,7 +31,7 @@ public class URLReaderTask extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... strings) {
         running = true;
-        result = "tatti";
+        result = "initial_useless_string";
         try {
             Log.i("qwe", strings[0]);
             HttpURLConnection httpURLConnection = getConnection(strings[0]);
